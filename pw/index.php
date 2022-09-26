@@ -8,9 +8,6 @@ $buku = query("SELECT * FROM buku")
 <!doctype html>
 <html lang="en">
 
-<!doctype html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>test</title>
@@ -22,7 +19,7 @@ $buku = query("SELECT * FROM buku")
             <tr>
                 <th>No</th>
                 <th>Nama Buku</th>
-                <th>penulis</th>
+                <th>penulis buku</th>
                 <th>gambar</th>
             </tr>
             <?php $i = 1 ?>
